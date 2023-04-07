@@ -1,0 +1,55 @@
+.categoriesParents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 23%;
+    img{
+        
+        width: 100%;
+        border-radius: 15px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.img{
+    height: 15.4em;
+}
+
+.earphone{
+    background-color: #fdbaf0;
+    color: #b10e91;
+    
+}
+
+.phone{
+    background-color: #b293fe;
+    color: #3300ac;
+}
+
+.laptop{
+    color: #006282;
+    background-color: #71dcff;
+}
+
+.smartwatch{
+    color: #a58a00;
+    background-color: #ffec8d;
+}
+
+.categoryName{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

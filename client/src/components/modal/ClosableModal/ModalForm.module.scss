@@ -1,0 +1,36 @@
+.btn{
+    width: 100% !important;
+    height: 100% !important;
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex !important;
+    align-items: center !important;
+    border: none !important;
+    justify-content: center;
+    font-weight: 600 !important;
+    background-color: #06c180 !important;
+
+
+    i{
+        margin-right: 0.3em !important;
+    }
+
+}
+
+.btn:hover{
+    transition: 0.3s;
+    background-color:#0c53b7  !important;
+    color:  #d0f2ff !important;
+}
+
+.modal{
+    font-size: 1em;
+    
+}
+
+
+
+.btnAccept{
+    background-color: #06c180;
+    border: none;
+}

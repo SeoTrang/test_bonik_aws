@@ -1,0 +1,31 @@
+.titleTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleLeft{
+
+    i{
+        margin-right: 0.8em;
+    }
+    span{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+// color: #e94560;
+// rgb(255, 225, 230)
+
+.titleRight{
+
+    a{
+        background-color: rgb(255, 225, 230);
+        color: #e94560;
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+    a:hover{
+        color: #e94560;
+    }
+}

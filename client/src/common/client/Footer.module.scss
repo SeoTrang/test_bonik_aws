@@ -1,0 +1,106 @@
+.Footer{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 2.5em;
+    width: 100%;
+    background-color: rgb(15 ,52, 96);
+    min-height: 25em;
+    color: #ffffff;
+
+    li{
+        color: rgb(174, 180, 190);
+    }
+
+}
+
+.myFooter{
+    // margin-top: 3.5em;
+    background-color: rgb(15 ,52, 96);
+    // background-color: green;
+
+    width: 90%;
+    margin: 3.5em auto;
+    padding-top: 3.5em;
+    height: 20em;
+    display: flex;
+    justify-content: space-between;
+
+    section{
+        margin-left: 0.5em;
+        padding-left: 5em;
+        width: 23.3%;
+        h5{
+            font-size: 25px;
+        }
+
+        li{
+            margin-top: 1em;
+            cursor: pointer;
+        }
+
+       
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
+
+.logo{
+    width: 30%;
+    // line-height: 1em;
+    li{
+        margin-top: 0.8em;
+        
+    }
+
+    svg{
+        width: 2em;
+    }
+}
+
+.app{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #7474747a;
+    padding: 0.4em 0.8em;
+    border-radius: 10px;
+    margin-right: 1em;
+}
+
+.appsoci{
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
+
+// media laptop pc ---------------------------------------
+
+
+@media (max-width: 1447px){
+
+    .myFooter{
+        width: 95%;
+    }
+
+   
+}
+
+// -----------------------media tablet
+
+
+
+// -----------------------media phone

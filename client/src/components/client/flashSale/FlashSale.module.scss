@@ -1,0 +1,62 @@
+.flashSale{
+    margin-top: 1.875em;
+    
+    
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    h2{
+        font-size: 1.875em;
+        font-weight: bold;
+
+    }
+    i{
+        font-size: 1.25em;
+        margin-right: 0.9375em;
+        color: rgb(233 ,69 ,96);
+    }
+}
+
+.right{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: rgb(125, 135, 156);
+    transition: 0.2s;
+
+    span{
+        margin-right: 0.7em;
+    }
+}
+
+.right:hover{
+    color: rgb(233 ,69 ,96);
+    transition: 0.3s;
+}
+
+
+.products{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-top: 1.875em;
+    // display: grid;
+    // grid-template-columns: repeat(5, 1fr);
+    // grid-gap: 20px;
+    width: 100%;
+
+   
+    
+}
+
+

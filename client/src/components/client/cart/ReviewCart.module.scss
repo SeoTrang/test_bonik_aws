@@ -1,0 +1,182 @@
+.reviewCart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.userAction{
+    width: 27%;
+}
+
+.containerReview{
+    margin-top: 1.5em;
+    width: 70%;
+    background-color: #ffffff;
+    box-shadow: 0 0.7em 1.5em -0.5em #0f3460;;
+    border-radius: 10px;
+}
+
+.review{
+    width: 80%;
+    margin: 1.5em auto;
+    padding: 1em;
+    color: #0f3460;
+    
+    
+}
+.userAction{
+    width: 27%;
+}
+
+
+
+
+
+.infoMid{
+    display: flex;
+    font-size: 0.7em;
+    
+
+    .color{
+        margin-left: 1.5em;
+    }
+    div{
+        color: #0f3460;
+        border-radius: 5px;
+        padding: 0.1em 0.5em;
+        border: 1px solid rgb(127 135 150);
+    }
+}
+
+.myProduct{
+    display: flex;
+    align-items: center;
+}
+
+.count{
+    font-size: 1.2em;
+    width: 5%;
+}
+
+
+.product{
+    width: 95%;
+    margin-top: 1.5em;
+    padding: 1em 1.5em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #0f3460;
+    transition: 0.3s;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 1px solid #e94560;
+    // box-shadow: 0 0.7em 1.5em -0.5em #0f3460;
+    img{
+        width: 80%;
+    }
+}
+
+
+
+.img{
+    padding-right: 0.5em;
+    width: 15%;
+}
+
+.shortInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // padding: 0em 2em;
+}
+
+
+
+.infoTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.infoBottom{
+    color: rgb(125, 135, 156);
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    display: flex;
+    span{
+        margin: 0 0.2em;
+    }
+}
+
+.equas{
+
+}
+
+.productPrice{
+
+}
+
+.expression{
+
+}
+
+.quantityProduct{
+
+}
+
+.quantityPrice{
+    margin-left: 3em !important;
+    color: #e94560;
+}
+
+
+// box info
+
+.boxInfo{
+    margin-top: 1em;
+    border: 1px solid rgb(125, 135, 156);
+    border-radius: 10px;
+    padding: 1em;
+    div{
+        margin-top: 0.3em;
+        width: 100%;
+    }
+}
+
+.boxInfo>div{
+    display: flex;
+}
+
+.boxAddress{
+    
+}
+
+.address{
+    span:not(:first-child){
+        margin-left: 0.3em;
+    }
+}
+
+.addressTitle{
+    width: 40% !important;
+    color:  rgb(107, 116, 136);
+}
+
+
+
+

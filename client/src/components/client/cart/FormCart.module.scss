@@ -1,0 +1,78 @@
+.formCart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    
+}
+
+.form{
+    margin-top: 1.5em;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 1.5em;
+    border-radius: 10px;
+    font-size: 1em !important;
+    box-shadow: 0 0.7em 1.5em -0.5em #0f3460;
+}
+
+.containerForm{
+    margin: 0 5em;
+    input{
+        min-height: 3.5em;
+    }
+}
+
+.title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.star{
+    color: #e94560;
+}
+
+.option{
+    font-size: 0.8em;
+}
+
+.contentForm{
+    margin-top: 1.5em;
+
+    label{
+        font-weight: 600;
+        color: rgb(85 92 108);
+    }
+}
+
+
+.addr{
+    display: flex;
+    justify-content: space-between;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 27%;
+    }
+    select{
+        margin-top: 0.5em;
+        min-height: 2em;
+        padding: 0.3em;
+        border-radius: 5px;
+        width: 100%;
+        border: 1px solid rgb(85 92 108);
+    }
+
+
+}
+
+.userAction{
+    width: 27%;
+}
+
+.note{
+    margin-top: 1.5em;
+    input{
+        min-height: 4.5em !important;
+    }
+}

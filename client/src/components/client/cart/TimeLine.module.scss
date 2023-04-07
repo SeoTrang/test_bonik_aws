@@ -1,0 +1,32 @@
+.timeLine{
+    padding-left: 4em;
+    display: flex;
+    align-items: center;
+    font-weight: 550;
+    
+        
+}
+
+.itemTimeline{
+    font-size: 0.9em;
+    color: #e94560;
+    background-color: rgb(255, 225, 230);
+    padding: 0.6em 0.9em;
+    border-radius: 20px;
+
+}
+
+.timeLineActive{
+    color: #ffffff;
+    background-color: #e94560;
+}
+
+.line{
+    width: 4em;
+    height: 0.2em;
+    background-color: rgb(255, 225, 230);
+}
+
+.lineActive{
+    background-color: #e94560;
+}

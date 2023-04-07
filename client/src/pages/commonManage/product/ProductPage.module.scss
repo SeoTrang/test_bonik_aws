@@ -1,0 +1,33 @@
+.listProducts{
+    background-color: #ffffff;
+    padding: 0.3em;
+    border-radius: 10px;
+    
+}
+
+.totalProducts{
+    background-color: #ffffff;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+.topCateGories{
+    background-color: #ffffff;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+
+.boxProducts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.productsTitle{
+    display: flex;
+    justify-content: space-between;
+
+    select{
+        width: 9em;
+        font-size: 0.9em;
+    }
+}

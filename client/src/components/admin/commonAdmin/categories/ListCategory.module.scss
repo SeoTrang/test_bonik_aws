@@ -1,0 +1,94 @@
+.listCategory{
+    padding:0 1em;
+  }
+  .item{
+      display: flex;
+      align-items: center;
+      margin-top: 1.5em;
+      font-weight: 600;
+      img{
+          width: 3em;
+          border-radius: 50%;
+      }
+  }
+  
+  .title{
+      span{
+          font-weight: 700;
+      }
+  }
+  
+  .img{
+      width: 20%;
+  }
+  .categoryName{
+      width: 20%;
+  }
+  .sold{
+      // text-align: center;
+      width: 15%;
+  }
+  .quatityProducts{
+      width: 20%;
+      // text-align: center;
+  }
+  .action{
+
+      width: 20%;
+      display: flex;
+    //   font-size: 0.8em;
+    justify-content: space-between;
+     
+  }
+  .btnEdit{
+    width: 40%;
+    background-color: #06c180 !important;
+    border: none !important;
+    display: flex !important;
+    justify-content: space-around;
+    transition: 0.3s;
+    
+
+    a{
+        color: #ffffff;
+        display: flex;
+        align-items: center !important;
+    }
+    
+
+
+}
+
+i{
+    margin-right: 0.3em;
+}
+
+.btnEdit:hover{
+    background-color: #0c53b7 !important;
+    transition: 0.3s;
+    a{
+        color: #ffffff;
+    }
+  
+}
+  
+//   .btnAction{
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       width: 60%;
+//       background-color: #06c180;
+//       color: #ffffff;
+//       border-radius: 10px;
+//       transition: 0.3s;
+  
+//       i{
+//           margin-right: 0.3em;
+//       }
+//       cursor: pointer;
+//   }
+  
+//   .btnAction:hover{
+//       background-color: #ffec8d;
+//       color: #006292;
+//   }

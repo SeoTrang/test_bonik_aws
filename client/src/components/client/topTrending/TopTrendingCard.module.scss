@@ -1,0 +1,166 @@
+
+.topTrendingCard{
+    cursor: pointer;
+    position: relative;
+    width: 19em;
+    padding: 2.05em 1.47em 1.47em 1.47em;
+    background-color: #ffffff;
+    box-shadow:  0 0.7em 1.5em -0.5em #0f3460;;
+    border-radius: 10px;
+
+}
+
+.img{
+    
+}
+
+.imgCard{
+    padding: 0.5882352941176471em;
+}
+
+.myImg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myImg2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.coating{
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.productTop{
+    // top: 0.625em;
+    position: absolute;
+    width: 90%;
+    top: 0.6em;
+    left: 5%;
+    // background-color: green;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.discount{
+    background-color: #e9435e;
+    color: white;
+    // padding: 0.125em 0.8em;
+    font-size: 0.75em;
+    border-radius: 0.625em;
+    height: 1.5em;
+    // width: 45%;
+    display: flex;
+    align-items: center;
+
+    .box{
+        padding: 0.125em 0.8em;
+    }
+}
+
+
+
+// #0f3460
+
+.productLike{
+    
+
+    display: none;
+    cursor: pointer;
+
+    i{
+        font-size: 1.25em;
+    }
+}
+
+
+.star{
+    color: #fb6d2d;
+    font-size: 0.7em;
+}
+
+.img{
+
+    img{
+        width: 7.1em;
+    }
+}
+
+
+
+
+.myImg{
+    display: flex;
+    position: relative;
+}
+
+
+
+.quantityImg{
+    position: absolute;
+    top: 2.7em;
+    left: 2.5em;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.18em;
+}
+
+.shortDescription{
+    margin-top: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4{
+        color: rgb(55, 63, 80);
+        font-weight: 550;
+        transition: 0.3s;
+    }
+
+    h5{
+        color: black;
+        font-weight: 500;
+    }
+}
+
+.navLeft{
+    background-color: rgb(243 245 249);
+    font-size: 1.17em;
+    padding: 0.59em;
+    border-radius: 50%;
+    width: 2.35em;
+    height: 2.35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.topTrendingCard:hover{
+    .productLike{
+        display: block;
+    }
+
+    h4{
+        color: #e9435e;
+        transition: 0.3s;
+    }
+
+    .navLeft{
+        transform: translateX(0.59em);
+        transition: 0.4s;
+        color: #e9435e;
+    }
+
+}

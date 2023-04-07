@@ -1,0 +1,10 @@
+.listImg{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    img{
+        width: 5.05em;
+        
+
+    }
+}

@@ -1,0 +1,48 @@
+.listColor {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .checkboxLabel {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .checkbox {
+    display: none;
+  }
+  
+  .colorBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+  }
+  
+  .colorName {
+    margin-left: 0.25rem;
+  }
+  
+
+.color{
+    margin-right: 0.5em;
+    background-color: #ffffff;
+    padding: 0.5em 1em;
+    border: 1px solid rgb(218, 225, 231);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.color:hover{
+    background-color: #e94560;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.colorActive{
+    background-color: #e94560;
+    color: #ffffff;
+    transition: 0.3s;
+}

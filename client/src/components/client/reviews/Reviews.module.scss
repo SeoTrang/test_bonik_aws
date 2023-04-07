@@ -1,0 +1,112 @@
+// reviews
+
+.reviews{
+    color: #424242;
+    padding: 1em;
+    margin-top: 2.5em;
+    background-color: #ffffff;
+    border-radius: 10px;
+    line-height: 1.5em;
+
+}
+
+.reviewsTitle{
+    font-size: 1.2em;
+}
+
+.boxReviews{
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+}
+
+.averageStar{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    i{
+        color: #fb6d2d;
+    }
+
+
+}
+.average{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #e94560;
+    margin-top: 0.5em;
+}
+
+.listStar{
+    margin-top: 0.5em;
+}
+
+.totalReviews{
+    margin-top: 0.5em;
+}
+
+.progressBlock{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progressBlockLine{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+
+    // span{
+    //     width: 5%;
+    // }
+    i{
+        color: #fb6d2d;
+        margin-left: 0.2em;
+    }
+
+    p{
+        margin-left: 0.3em;
+    }
+
+    
+
+
+}
+
+.progressLine{
+    margin-left: 0.2em;
+    width: 75%;
+    height: 0.3em;
+    background-color: #eee;
+}
+
+.progressBar{
+    height: 0.3em;
+    background-color: #fb6d2d;
+}
+
+.review{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button{
+        cursor: pointer;
+        background-color: #e94560;
+        color: #ffffff;
+        padding: 1em;
+        border: none;
+        border-radius: 5px;
+        margin-top: 0.5em;
+        transition: 0.3s;
+    }
+
+    button:hover{
+        background-color: #0f3460;
+        transition: 0.3s;
+    }
+}

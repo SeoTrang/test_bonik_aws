@@ -1,0 +1,639 @@
+.header{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255,255,255,1) ;
+    // box-shadow: 5px 5px 5px rgb(246, 249, 252);
+    min-height: 10.5em;
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+    transition: 0.3s;
+    z-index: 9999;
+    
+    a{
+        text-decoration: none;
+        color: #0f3460;
+    }
+
+}
+
+.headerEffect{
+
+    
+    margin-top: -40px;
+    // box-shadow: none;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255,255,255,1) ;
+    z-index: 9999;
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+    // border-bottom: 1px solid rgb(133, 133,133);
+    .headerChildTop{
+        // visibility: hidden;
+        // display: none;
+        transform: translate(0,-50px);
+        transition: 0.5s;
+    }
+
+    .myHeader{
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 5em;
+    }
+
+}
+
+
+
+// header top
+
+.headerChildTop{
+    width: 100%;
+    background-color: rgb(15 ,52, 96);
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    min-height: 50px;
+    align-items: center;
+    span{
+        margin-left: 5px;
+    }
+    
+    img{
+        width: 1.9em;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.myHeadTop{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headTop{
+    width: 27%;
+}
+
+
+.help{
+    // width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    i{
+        background-color: rgb(46 ,72 ,108);
+        padding: 10px;
+        border-radius: 50%;
+    }
+}
+
+
+.headTopRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.country{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    span{
+        margin-right: 5px;
+    }
+
+}
+
+
+
+
+// headerChildMid
+
+.myHeader{
+    width: 90%;
+    margin: 1em auto;
+
+}
+
+
+.headerChildMid{
+    width: 100%;
+    display: flex;
+    min-height: 4em;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+
+    img{
+        min-width: 8.5em
+    }
+
+};
+
+.search{
+    // font-size: 16px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border: 1px solid rgb(133, 133,133);
+    min-height: 2.5em;
+    padding: 5px 30px;
+    border-radius: 30px;
+    transition: 0.7s;
+    
+    input{
+        width: 100%;
+        min-height: 2.5em;
+        // height: 100%;
+        border: none;
+    }
+    input:focus-visible{
+        outline: none;
+    }
+
+    i{
+        padding: 5px;
+        cursor: pointer;
+        // font-size: 16px;
+        color: rgb(134, 130, 130);
+    }
+    i:hover{
+        color: rgb(233 ,69 ,96);
+        transition: 0.2s;
+    }
+
+}
+
+.searchEffect{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    border: 1px solid rgb(133, 133,133);
+    min-height: 40px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    margin-right: 45%;
+    transition: 0.5s;
+    
+    input{
+        width: 100%;
+        min-height: 40px;
+        // height: 100%;
+        border: none;
+    }
+    input:focus-visible{
+        outline: none;
+    }
+
+    i{
+        padding: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: rgb(134, 130, 130);
+    }
+    i:hover{
+        color: rgb(233 ,69 ,96);
+        transition: 0.2s;
+    }
+
+}
+
+.search:focus-within{
+    border: 1px solid rgb(233 ,69 ,96);
+    transition: 0.3s;
+}
+
+
+.categorys1{
+    display: flex;
+    margin: 0 !important;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 0 !important;
+    li{
+        margin: 0 0.3em;
+
+    }
+
+    a{
+        // color: #0000 !important;
+    }
+    a:hover{
+        color: #ffffff;
+        transition: 0.3s;
+    }
+   
+}
+
+
+.userAction{
+    width: 11%;
+
+    a{
+        color: #000 !important;
+    }
+}
+
+.user{
+
+    
+    i{
+        background-color: rgb(243,245,249);
+        padding: 16px;
+        border-radius: 50%;
+        margin-right: 5px;
+       cursor: pointer;
+       transition: 0.3s;
+    }
+    i:hover{
+        background-color: rgb(233 ,69 ,96);
+        color: #ffff;
+        transition: 0.3s;
+    }
+
+    span{
+        cursor: pointer;
+        transition: 0.3s;
+
+    }
+
+}
+
+.cart{
+    color: #606060;
+    i{
+        background-color: rgb(243,245,249);
+        padding: 16px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    i:hover{
+        background-color: rgb(233 ,69 ,96);
+        color: #ffff;
+        transition: 0.3s;
+    }
+}
+
+// headerChildButtom
+
+
+
+.headerChildButtom{
+    position:absolute;
+    // padding-top: 70px;
+    // margin-top: 70px;
+    transition: 0.6s;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 16px;
+    
+}
+
+.headerChildButtomEffect{
+    display: none;
+    // font-size: 16px;
+    // transform: translate(34.375em,-46px);
+    // transition: 0.8s;
+    // width: 41.25em;
+}
+
+// 34.375em
+
+
+.categorys{
+    display: flex;
+    list-style: none;
+    display: none;
+   
+}
+
+.navParent{
+    // display: none;
+    position: relative;
+    padding-left: 20px;
+    transition: 0.3s;
+    padding: 0.5em;
+    border-radius: 10px;
+    a{
+        color: #000;
+    }
+}
+
+
+
+.navParent:hover{
+
+    cursor: pointer;
+ 
+    background-color: rgb(233 ,69 ,96);
+    // border-bottom: 1px rgb(233 ,69 ,96);
+    transition: 0.3s;
+    a{
+        color: #ffffff;
+    }
+
+    ul{
+        // display: block;
+        visibility: visible;
+        opacity: 1;
+        color: black;
+        min-height: 150px;
+
+        a{
+            color: #0f3460;
+            transition: 0.3s;
+        }
+
+    }
+}
+
+.navParentActive{
+
+    
+    background-color: rgb(233 ,69 ,96);
+    // border-bottom: 1px rgb(233 ,69 ,96);
+    transition: 0.3s;
+    a{
+        color: #ffffff;
+    }
+}
+
+.navParentActive:hover{
+    a{
+        color: #ffffff;
+        transition: 0.3s;
+    }
+}
+
+.navChild{
+    // display: none;
+    top: 2.5em;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    position: absolute;
+    padding-top: 1.5em;
+    background-color:#fff;
+    // background: #e0e0e0;
+    box-shadow: 0 0.7em 1.5em -0.5em #0f3460;
+
+    padding: 10px;
+    
+    min-width: 150px;
+    // height: 0px;
+    border-radius: 5px;
+    li{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        i{
+            font-size: 10px;
+        }
+    }
+
+    li:hover{
+        color: rgb(233 ,69 ,96);
+        transition: 0.3s;
+
+    }
+
+}
+
+
+// media laptop pc ---------------------------------------
+
+@media (max-width:1100px) and (min-width:1023px) {
+    .myHeadTop{
+        width: 95%;
+    }
+
+    .headTop{
+        width: 28%;
+    }
+
+    .myHeader{
+        width: 95%;
+        font-size: 13px;
+    }
+    .user{
+        span{
+            display: none;
+        }
+    }
+
+    .headerChildButtomEffect{
+        font-size: 14px;
+        transform: translate(30.25em,-46px);
+        transition: 0.5s;
+        width: 35.5em;
+        // width: 660px;
+    }
+
+    .headerChildButtom{
+        font-size: 13px;
+    }
+
+    .categorys1{
+        font-size: 13px;
+    }
+
+    .categorys{
+        li{
+            // margin-left: 10px;
+            padding-left: 0.9375em;
+        }
+    }
+}
+
+
+@media (max-width:1160px) and (min-width:1100px) {
+    .myHeadTop{
+        width: 95%;
+    }
+
+    .headTop{
+        width: 28%;
+    }
+
+    .myHeader{
+        width: 95%;
+        font-size: 13px;
+    }
+    .user{
+        span{
+            display: none;
+        }
+    }
+
+    .headerChildButtomEffect{
+        font-size: 14.5px;
+        transform: translate(30.25em,-46px);
+        transition: 0.5s;
+        width: 35.5em;
+        // width: 660px;
+        
+    }
+
+    .headerChildButtom{
+        font-size: 14px;
+    }
+
+    .categorys1{
+        font-size: 14px;
+    }
+
+    .categorys{
+        li{
+            // margin-left: 10px;
+            padding-left: 0.9375em;
+        }
+    }
+}
+
+
+
+
+@media (max-width:1240px ) and (min-width:1160px){
+
+    .myHeadTop{
+        width: 95%;
+    }
+
+    .headTop{
+        width: 28%;
+    }
+
+    .myHeader{
+        width: 95%;
+        font-size: 15px;
+    }
+    .user{
+        span{
+            display: none;
+        }
+    }
+
+    .headerChildButtomEffect{
+        font-size: 15px;
+        transform: translate(30.25em,-46px);
+        transition: 0.5s;
+        width: 35.5em;
+        // width: 660px;
+    }
+
+    .headerChildButtom{
+        font-size: 14px;
+    }
+
+    .categorys1{
+        font-size: 14px;
+    }
+
+    .categorys{
+        li{
+            // margin-left: 10px;
+            padding-left: 0.9375em;
+        }
+    }
+}
+
+@media (max-width:1300px) and (min-width:1240px){
+
+    .myHeadTop{
+        width: 95%;
+    }
+
+    .headTop{
+        width: 28%;
+    }
+    .myHeader{
+        width: 95%;
+        font-size: 16px;
+    }
+    .user{
+        span{
+            display: none;
+        }
+    }
+
+    .headerChildButtomEffect{
+        font-size: 16px;
+        transform: translate(30.25em,-46px);
+        transition: 0.5s;
+        // width: 660px;
+        width: 35.5em;
+    }
+
+    .headerChildButtom{
+        font-size: 16px;
+    }
+
+    .categorys1{
+        font-size: 16px;
+    }
+
+    .categorys{
+        li{
+            // margin-left: 10px;
+            padding-left: 0.9375em;
+        }
+    }
+}
+
+@media (min-width:1300px) and (max-width: 1430px){
+
+    .myHeadTop{
+        width: 95%;
+    }
+
+    .headTop{
+        width: 28%;
+    }
+    .myHeader{
+        width: 95%;
+        font-size: 16px;
+    }
+    .user{
+        span{
+            display: none;
+        }
+    }
+
+    .headerChildButtomEffect{
+        font-size: 16px;
+        transform: translate(34.375em,-46px);
+        transition: 0.5s;
+        width: 35.5em;
+        // width: 660px;
+    }
+
+    .headerChildButtom{
+        font-size: 16px;
+    }
+    .categorys1{
+        font-size: 16px;
+    }
+
+    .categorys{
+        li{
+            // margin-left: 10px;
+            padding-left: 0.9375em;
+        }
+    }
+}
+
+// -----------------------media tablet
+
+
+
+// -----------------------media phone

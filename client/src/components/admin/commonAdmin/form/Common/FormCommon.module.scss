@@ -1,0 +1,32 @@
+.input {
+    padding: 8px 12px;
+    height: 2.5em;
+    font-size: inherit;
+    color: #576673;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 225, 231);
+    width: 100%;
+    outline: none;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1em;
+    color: #576673;
+  }
+
+  .inputCommon{
+    display: flex;
+    flex-direction: column;
+  }
+
+.errorMessage{
+    margin-top: 0.3em;
+    color: red;
+    font-size: 0.8em;
+}
+
+.required{
+  color: red;
+}

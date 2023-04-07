@@ -1,0 +1,139 @@
+
+.slideTop{
+  width: 90%;
+  padding-top: 15em;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+// @media (max-width: 1430px){
+    
+//     .slideTop{
+//       width: 90%;
+//       padding-top: 15em;
+//       margin: 0 auto;
+//       font-size: 16px;
+//     }
+//   }
+  
+  @media (max-width: 1330px){
+    
+    .slideTop{
+      width: 95%;
+      padding-top: 15em;
+      margin: 0 auto;
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 1230px){
+    
+    .slideTop{
+      width: 95%;
+      padding-top: 15em;
+      margin: 0 auto;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 1130px){
+    
+    .slideTop{
+      width: 95%;
+      padding-top: 15em;
+      margin: 0 auto;
+      font-size: 13px;
+    }
+  }
+
+.slider{
+
+    // height: 600px;
+    
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+ 
+
+    img{
+        // width: 15.625em;
+        // height: 18.625em;
+    }
+
+    h2{
+        font-size: 2.8125em;
+    }
+}
+
+.slideTop{
+    // font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slideDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 13.5em;
+    // padding: 0 50px;
+    
+    
+}
+
+.slideShortDe{
+    font-size: 1.125em;
+    line-height: 1.8;
+}
+
+.slideAction{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnShopNow{
+    color: #ffffff;
+ background-color: rgb(233 ,69 ,96);
+}
+
+.btnMore{
+    background-color: #ffffff;
+    color: rgb(233 ,69 ,96);
+}
+
+.btnSlide{
+display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ font-family: inherit;
+width: 11.25em;
+height: 3.125em;
+ font-weight: 500;
+ text-transform: uppercase;
+ letter-spacing: 0.4px;
+ 
+ border-style: solid;
+ border-width: 2px 2px 2px 2px;
+ border-color: rgba(255, 255, 255, 0.333);
+ border-radius: 20px;
+ border: 1px solid rgba(255, 255, 255, 0.333);
+ padding: 1em 1.5em 1em 1.75em;
+ transform: translate(0px, 0px) rotate(0deg);
+ transition: 0.2s;
+//  box-shadow: -4px -2px 16px 0px rgb(43 52 69 / 10%), 4px 2px 6px 0px rgb(43 52 69 / 10%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+ cursor: pointer;
+ 
+}
+
+.btnSlide:hover{
+    color: #ffffff;
+ background-color: rgb(233 ,69 ,96);
+ box-shadow: -2px -1px 8px 0px #516d91, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+}
+
+
+
